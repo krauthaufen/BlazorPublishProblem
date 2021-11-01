@@ -1,0 +1,9 @@
+version: 6.2.1
+source https://api.nuget.org/v3/index.json
+source https://vrvis.myget.org/F/aardvark_public/api/v3/index.json
+copy_local: true
+storage: none
+
+nuget FSharp.Core ~> 5.0.0
+nuget Microsoft.AspNetCore.Components.WebAssembly ~> 6.0.0-rc.2.21480.10
+nuget Microsoft.AspNetCore.Components.WebAssembly.DevServer ~> 6.0.0-rc.2.21480.10
